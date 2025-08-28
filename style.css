@@ -1,7 +1,10 @@
 /* css code start */
 
 /* system font */
-html {font-family:'GorDIN', 'Bahnschrift SemiBold', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+html {font-family:'GorDIN', 'Bahnschrift SemiBold', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: #1b1b1b;
+color: #efefef;
+}
 
 span {font-family:'Trebuchet Source', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
@@ -12,6 +15,10 @@ border-radius: 10px;
 padding: 10px;
 box-shadow: 2px 2px 10px rgb(120, 119, 119);
 font-family:'GorDIN', 'Bahncshrift SemiBold', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+/* .metropolice {displ} */
+
+.yt-img-shadow {display: inline-flex;}
 
 .iclass {background-color: gray; color: white; padding: 1px; border-radius: 2px;}
 
@@ -64,7 +71,7 @@ header {position: sticky;}
 .video2 {    
     position: absolute;
     transform: translateY(-50%);
-    top: 110%;
+    top: 130%;
     left: 73%;
     height: 100%;
     justify-content: end;
@@ -82,7 +89,7 @@ a {height: 0px;
 width: 0px;
 }
 
-.holder_textHeaderBOX {align-items: end; display: inline-block-flex; }
+.holder_textHeaderBOX {align-items: end; display: inline-block; }
 
 .videotabindex {
     width: 900px; height: 500px; left: 0px; top: 5px; 
@@ -104,10 +111,12 @@ button:hover {
     transition: 1s;
 }
 
+a {color: #efefef; text-decoration: none;}
+
 .normtxt {font-family:'Trebuchet Source', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
 .desc_box {
-  background-color: #bfbfbf;  
+  background-color: #0f0f0f;  
   border-radius: 10px #bfbfbf solid;
   width: 900px;
   border: px #bfbfbf;
@@ -120,4 +129,6 @@ button:hover {
 /* credit style code */
 .cr01 {color: blue;
 text-decoration: underline;}
+
+
 /* css code end */
