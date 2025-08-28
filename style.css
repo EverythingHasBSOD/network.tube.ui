@@ -1,0 +1,123 @@
+/* css code start */
+
+/* system font */
+html {font-family:'GorDIN', 'Bahnschrift SemiBold', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+span {font-family:'Trebuchet Source', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+/* button style start */
+button {background-color: blue ;
+color: white;
+border-radius: 10px;
+padding: 10px;
+box-shadow: 2px 2px 10px rgb(120, 119, 119);
+font-family:'GorDIN', 'Bahncshrift SemiBold', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+.iclass {background-color: gray; color: white; padding: 1px; border-radius: 2px;}
+
+.iclass:hover {background-color: black; color: white; padding: 1px; border-radius: 5px; border: solid;}
+
+.flex {display: flex; margin: 0px; flex-wrap: wrap;}
+
+input {font-family: 'Trebuchet Source', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+/* .flexbox_main {align-items: start;}
+
+.flexbox_main2 {justify-content: center; align-content: center;}
+
+.flexbox_main3 {align-items: end;} */
+
+.videot { 
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    display: inline-flex;
+}
+
+.flexbox_main_div { 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+}
+
+header {position: sticky;}
+
+.thumbnail {
+    height: 185px;
+    object-fit: fill;
+    display: inline;
+}
+
+.video {    
+    position: absolute;
+    transform: translateY(-50%);
+    top: 65%;
+    left: 73%;
+    height: 100%;
+    justify-content: end;
+    align-items: start;
+    padding: 0px;
+    display: inline-flex;
+}
+
+.video2 {    
+    position: absolute;
+    transform: translateY(-50%);
+    top: 110%;
+    left: 73%;
+    height: 100%;
+    justify-content: end;
+    align-items: start;
+    padding: 0px;
+    display: inline-flex;
+}
+
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {height: 0px;
+width: 0px;
+}
+
+.holder_textHeaderBOX {align-items: end; display: inline-block-flex; }
+
+.videotabindex {
+    width: 900px; height: 500px; left: 0px; top: 5px; 
+    border-radius: 2px;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+    display: inline-flex;
+}
+
+.inpt {padding-left: 30px; padding-right: 30px;}
+
+button:hover {
+    font-family: 'GorDIN', 'Bahnschrift', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+    border: gold 5px solid;
+    transition: 1s;
+}
+
+.normtxt {font-family:'Trebuchet Source', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+.desc_box {
+  background-color: #bfbfbf;  
+  border-radius: 10px #bfbfbf solid;
+  width: 900px;
+  border: px #bfbfbf;
+}
+
+.hashtag {color: blue;}
+
+/* button style end */
+
+/* credit style code */
+.cr01 {color: blue;
+text-decoration: underline;}
+/* css code end */
